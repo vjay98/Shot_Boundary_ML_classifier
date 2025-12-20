@@ -31,9 +31,9 @@ Multi-class ML classifier for detecting and typing shot boundaries in sports vid
 
 ## Pipeline
 
-video.mp4 + ground_truth.csv
-↓ extract per-frame features (hist_diff, edges, phash, block_changes)
-↓ merge GT intervals → events (cut/fade: single-frame, dissolve/wipe: start-end pairs)
-↓ summarize_window(center_idx, window=10) → 10 base features
-↓ add derived (edge_ratios, frac_mean) → 13D vector
-↓ impute → scale → model.predict() → pred_kind
+    video.mp4 + ground_truth.csv
+    ↓ extract per-frame features (hist_diff, edges, phash, block_changes)
+    ↓ merge GT intervals → events (cut/fade: single-frame, dissolve/wipe: start-end pairs)
+    ↓ summarize_window(center_idx, window=10) → 10 base features
+    ↓ add derived (edge_ratios, frac_mean) → 13D vector
+    ↓ impute → scale → model.predict() → pred_kind
