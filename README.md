@@ -21,10 +21,10 @@ Multi-class ML classifier for detecting and typing shot boundaries in sports vid
 
                 precision    recall  f1-score   support
         cut       0.920     0.958     0.939        48
-   dissolve       1.000     0.541     0.702        37
-   fadeout       0.000     0.000     0.000         0
+    dissolve       1.000     0.541     0.702        37
+    fadeout       0.000     0.000     0.000         0
       wipe       0.176     0.750     0.286         4
- accuracy                           0.775        89
+    accuracy                           0.775        89
 
 
 **Key win**: Cuts go from legacy precision ~0.40 → 0.92 with near-identical recall.
