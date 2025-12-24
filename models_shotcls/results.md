@@ -11,12 +11,12 @@
    macro avg      0.686     0.874     0.713       209
 weighted avg      0.954     0.904     0.924       209
 
-Confusion matrix (rows=true, cols=pred):
-[[109   1   0   2   4]
- [  0  53   2   6   2]
- [  0   0   2   1   0]
- [  0   0   0   2   0]
- [  0   0   0   2  23]]
+    Confusion matrix (rows=true, cols=pred):
+    [[109   1   0   2   4]
+    [  0  53   2   6   2]
+    [  0   0   2   1   0]
+    [  0   0   0   2   0]
+    [  0   0   0   2  23]]
 Saved LR model to models_shotcls\shot_lr_model.joblib
 
 === Decision Tree (depth=5) ===
@@ -32,9 +32,9 @@ Saved LR model to models_shotcls\shot_lr_model.joblib
    macro avg      0.787     0.862     0.778       209
 weighted avg      0.928     0.909     0.916       209
 
-Confusion matrix (rows=true, cols=pred):
-[[109   2   0   0   5]
- [  1  57   0   4   1]
- [  0   1   2   0   0]
- [  0   0   0   2   0]
- [  0   4   0   1  20]]
+    Confusion matrix (rows=true, cols=pred):
+    [[109   2   0   0   5]
+    [  1  57   0   4   1]
+    [  0   1   2   0   0]
+    [  0   0   0   2   0]
+    [  0   4   0   1  20]]
