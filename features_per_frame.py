@@ -5,8 +5,8 @@ import numpy as np
 
 # ------------- CONFIG -------------
 VIDEO_PATH = "video.mp4"
-GROUND_TRUTH_CSV = "ground_truth.csv"
-OUTPUT_CSV = "event_features.csv"   # change per stream
+GROUND_TRUTH_CSV = "ground_truth.csv"  # Ground truth for that stream
+OUTPUT_CSV = "event_features/event_features.csv"   # first create a dir then change per stream .csv name
 WINDOW = 10        # frames before/after center for summaries
 BLOCK_ROWS = 8
 BLOCK_COLS = 14
@@ -290,3 +290,4 @@ def export_event_features():
 if __name__ == "__main__":
     export_event_features()
     cap.release()
+
